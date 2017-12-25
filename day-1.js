@@ -13,3 +13,5 @@ function captcha(input, increment, normal){
     }
     console.log(sum);
 }
+
+module.exports.captcha = captcha;
